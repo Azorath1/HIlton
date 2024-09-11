@@ -1,0 +1,73 @@
+<!doctype html>
+<title> Hilton Hotels </title>
+<style>
+h1, h2 {background-color:black;
+   font-family:Copperplate Gothic;
+   color:white;
+    border:1px  solid white}
+p.class {font-size:30px;}
+</style>
+<body bgcolor="gray">
+<h1> Hello, welcome to Hilton Hotels, you are now viewing our registration page! </h1>
+<form>
+<fieldset>
+<legend> <h3> Please register your information. </h3> </legend>
+<b> <label for="dateofbirth">Please enter your date of birth:</label> </b>
+<input type="date"> <br>
+<b> <label for="firstname">First Name:</label> </b>
+<input type="text"> <br>
+<b> <label for="lastname">Last Name:</label> </b>
+<input type="text"> <br>
+<b> <label for="passwrd">Password:</label> </b>
+<input type="type"> <br>
+<b> <label for="passwrd2">Re-enter Password:</label> </b>
+<input type="type">
+</fieldset>
+<h1> Please book your hotel room. </h1>
+</form> 
+<form>
+<b> <label style="font-size:20px;" for="Area">Please book the hotel in the area you want to stay in:</label> </b>
+<select>
+<option value="SJ">San Juan</option>
+<option value="POS">Port of Spain</option>
+<option value="SF">San Furnando</option>
+<option value="CU">Curepe</option>
+<option value="LB">La brea</option>
+</select>
+<br>
+<b> <label style="font-size:20px;" for="numdays">Please enter the number of days you wish to stay:</label> </b>
+<input type="number" min="0" max="30">
+<br>
+<b> <label style="font-size:20px;" for="numpeeps">Please enter how many people are going to be staying with you:</label> </b>
+<input type="number" min="0" max="10">
+<br>
+<br>
+<h1> Please between <b> <i> premium </i> </b> or normal. </h1>
+<form>
+<p class="size"> <b> Premium:</b> </p> 
+<input type="radio" name="premiumandnormal">
+<p class="size"> <b> Normal: </b> </p>
+<input type="radio" name="premiumandnormal"> 
+</form>
+<br>
+<h1> Please state how many rooms you'd like. </h1>
+<form>
+<p class="size"> <b> <input type="checkbox">1 <br> </b> </p>
+<p class="size"> <b> <input type="checkbox">2 <br> </b> </p>
+<p class="size"> <b> <input type="checkbox">3 <br> </b> </p>
+<p class="size"> <b> <input type="checkbox">4<br> </b> </p>
+<p class="size"> <b> <input type="checkbox">5<br></b> </p>
+</form>
+<h1> Here are some images of our rooms!</h1>
+<br>
+ <img src="r1.jpeg" width="300"> &nbsp &nbsp 
+ <img src="r2.jpeg" width="300">&nbsp &nbsp
+ <img src="r3.jfif" width="300">&nbsp &nbsp 
+<br>
+ <h1> Here's a tour of our hotel room: </h1>
+<iframe border="1" src="Tour.mp4"> </iframe>
+<h2> Here are some more of our tours: </h2>
+<a href="https://www.youtube.com/watch?v=_LPcB-X-0ys"> <p class="size"> <b> Tour 1</b> </p> </a> 
+<a href="https://www.youtube.com/watch?v=En_tBwfm4d8"> <p class="size"> <b> Tour 2</b> </p> </a>  
+</body>
+</html>
